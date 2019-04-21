@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Testngpro(failed)">
+    <classes>
+      <class name="com.chen.autocases.TestDemo">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.chen.autocases.TestDemo -->
+    </classes>
+  </test> <!-- Testngpro(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

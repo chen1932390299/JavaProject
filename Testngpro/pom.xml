@@ -64,17 +64,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.15</version>
                 <configuration>
-                    <properties>
-                        <property>
-                             <name>usedefaultlisteners</name>
-                             <value>false</value>
-                         </property>
-                         <property>
-                             <name>listener</name>
-                             <value>org.uncommons.reportng.HTMLReporter,
-                               org.uncommons.reportng.JUnitXMLReporter</value>
-                        </property>
-                    </properties>
+
                     <!--<testFailureIgnore>true</testFailureIgnore>-->
                     <forkMode>never</forkMode>
                     <argLine>-Dfile.encoding=UTF-8</argLine>

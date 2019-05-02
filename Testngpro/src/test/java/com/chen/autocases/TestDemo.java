@@ -30,9 +30,9 @@ public class TestDemo {
 
     @BeforeClass
     public void beforeClass() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/java/driversPackage//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/root/.jenkins/workspace/mavenJavapro/Testngpro"+"/src/test/java/driversPackage//chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.setHeadless(Boolean.TRUE);
+        options.setHeadless(Boolean.FALSE);
         options.addArguments("--disable-gpu");
         options.addArguments("--start-maximized"); // 启动时自动最大化窗口
         driver = new ChromeDriver(options);

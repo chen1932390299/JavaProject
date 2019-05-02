@@ -30,7 +30,7 @@ public class TestDemo {
 
     @BeforeClass
     public void beforeClass() {
-        System.setProperty("webdriver.chrome.driver", "/root/.jenkins/workspace/mavenJavapro/Testngpro"+"/src/test/java/driversPackage//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/chrome/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.setHeadless(Boolean.FALSE);
         options.addArguments("--disable-gpu");

@@ -33,7 +33,7 @@ public class TestDemo {
         System.setProperty("webdriver.chrome.driver", "/usr/local/chrome/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.setHeadless(Boolean.FALSE);
-        options.addArguments("--disable-gpu");
+        //options.addArguments("--disable-gpu");
         options.addArguments("--start-maximized"); // 启动时自动最大化窗口
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.chen</groupId>
+    <artifactId>jmter-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <!--注解>设置编码格式utf-8</注解>-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!--注解>定义并参数化result.jtl生成的目录，默认在${project.build.directory}/target目录下</注解>-->
+        <jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
+        <jmeter.result.html.dir>${project.build.directory}\jmeter\SummaryHtml</jmeter.result.html.dir>
+        <ReportName>TestReport</ReportName>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.lazerycode.jmeter</groupId>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>2.8.0</version>
+                <executions>
+                    <execution>
+                        <id>jmeter-tests</id>
+                        <goals>
+                            <goal>jmeter</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!--注解>生成报告默认为true,csv格式，false禁用true时与resultFileFormat同时存在会覆盖其设置效果</注解-->
+                    <generateReports>false</generateReports>
+                    <!--注解>生成结果数据文件格式默认csv，xml则生成jtl文件</注解-->
+                    <resultsFileFormat>xml</resultsFileFormat>
+                </configuration>
+            </plugin>
+            <!--报告转换插件 -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>xml-maven-plugin</artifactId>
+                <version>1.0-beta-3</version>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>transform</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!--注解>详细报告转换jtl结果数据为html格式,报告模板detail-report_21.xsl</注解-->
+                    <transformationSets>
+                        <transformationSet>
+                            <dir>${jmeter.result.jtl.dir}</dir>
+                            <stylesheet>src\test\resources\jmeter-results-detail-report_21.xsl</stylesheet>
+                            <outputDir>${jmeter.result.html.dir}\detailHtml</outputDir>
+                            <fileMappers>
+                                <fileMapper
+                                        implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                    <targetExtension>html</targetExtension>
+                                </fileMapper>
+                            </fileMappers>
+                        </transformationSet>
+                        <!--注解>详细报告转换jtl结果数据为html格式报告模板shanhe</注解-->
+                        <transformationSet>
+                            <dir>${jmeter.result.jtl.dir}</dir>
+                            <stylesheet>src\test\resources\jmeter.results.shanhe.me.xsl</stylesheet>
+                            <outputDir>${jmeter.result.html.dir}\shaheHtml</outputDir>
+                            <fileMappers>
+                                <fileMapper
+                                        implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                    <targetExtension>html</targetExtension>
+                                </fileMapper>
+                            </fileMappers>
+                        </transformationSet>
+                    </transformationSets>
+                </configuration>
+                <!-- 报告转换插件依赖versionXSLT 2.0 -->
+                <dependencies>
+                    <dependency>
+                        <groupId>net.sf.saxon</groupId>
+                        <artifactId>saxon</artifactId>
+                        <version>8.7</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

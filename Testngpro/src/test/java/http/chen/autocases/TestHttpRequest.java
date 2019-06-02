@@ -15,12 +15,12 @@ public class TestHttpRequest {
     @BeforeClass
     public void beforeClass() {
 
-        log.info(System.getProperty("user.dir")+"http用例开始执行------");
+        log.info(System.getProperty("user.dir")+"http request------");
 
     }
     @AfterClass
     public void afterClass(){
-        log.info("http用例结束后运行----");
+        log.info("http consume----");
 
     }
 

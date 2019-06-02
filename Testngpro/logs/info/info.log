@@ -1,0 +1,122 @@
+[INFO]2019-06-02 21:06:08[ main:0 ]C:\Users\Administrator\IdeaProjects\Testngpro用例开始执行------
+[INFO]2019-06-02 21:06:08[ main:11 ]testcase1
+[INFO]2019-06-02 21:06:08[ main:14 ]testcase2
+[INFO]2019-06-02 21:06:08[ main:15 ]用例结束后运行----
+[INFO]2019-06-02 21:06:09[ main:766 ]C:\Users\Administrator\IdeaProjects\Testngprohttp用例开始执行------
+[INFO]2019-06-02 21:06:09[ main:945 ]test http1 result is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[WARN]2019-06-02 21:06:09[ main:1267 ]Invalid cookie header: "Set-Cookie: uuid_tt_dd=10_4554810490-1559480755758-516732; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[WARN]2019-06-02 21:06:09[ main:1269 ]Invalid cookie header: "Set-Cookie: dc_session_id=10_1559480755758.567121; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[INFO]2019-06-02 21:06:09[ main:1272 ]java.lang.String
+[INFO]2019-06-02 21:06:09[ main:1273 ]test httPost csdn result is :true
+[INFO]2019-06-02 21:06:09[ main:1274 ]http用例结束后运行----
+[INFO]2019-06-02 21:07:54[ com.chen.autocases.TestDemo:42 ]C:\Users\Administrator\IdeaProjects\Testngpro用例开始执行------
+[INFO]2019-06-02 21:07:54[ com.chen.autocases.TestDemo:52 ]testcase1
+[INFO]2019-06-02 21:07:54[ com.chen.autocases.TestDemo:59 ]testcase2
+[INFO]2019-06-02 21:07:54[ com.chen.autocases.TestDemo:46 ]用例结束后运行----
+[INFO]2019-06-02 21:07:55[ http.chen.autocases.TestHttpRequest:18 ]C:\Users\Administrator\IdeaProjects\Testngprohttp用例开始执行------
+[INFO]2019-06-02 21:07:55[ http.chen.autocases.TestHttpRequest:34 ]test http1 result is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[WARN]2019-06-02 21:07:55[ org.apache.http.client.protocol.ResponseProcessCookies:130 ]Invalid cookie header: "Set-Cookie: uuid_tt_dd=10_4554810490-1559480861698-608123; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[WARN]2019-06-02 21:07:55[ org.apache.http.client.protocol.ResponseProcessCookies:130 ]Invalid cookie header: "Set-Cookie: dc_session_id=10_1559480861698.568202; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[INFO]2019-06-02 21:07:55[ http.chen.autocases.TestHttpRequest:48 ]java.lang.String
+[INFO]2019-06-02 21:07:55[ http.chen.autocases.TestHttpRequest:51 ]test httPost csdn result is :true
+[INFO]2019-06-02 21:07:55[ http.chen.autocases.TestHttpRequest:23 ]http用例结束后运行----
+[INFO] 2019-06-02 21:09:47 ( com.chen.autocases.TestDemo:42)
+C:\Users\Administrator\IdeaProjects\Testngpro用例开始执行------
+[INFO] 2019-06-02 21:09:47 ( com.chen.autocases.TestDemo:52)
+testcase1
+[INFO] 2019-06-02 21:09:47 ( com.chen.autocases.TestDemo:59)
+testcase2
+[INFO] 2019-06-02 21:09:47 ( com.chen.autocases.TestDemo:46)
+用例结束后运行----
+[INFO] 2019-06-02 21:09:48 ( http.chen.autocases.TestHttpRequest:18)
+C:\Users\Administrator\IdeaProjects\Testngprohttp用例开始执行------
+[INFO] 2019-06-02 21:09:48 ( http.chen.autocases.TestHttpRequest:34)
+test http1 result is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[WARN] 2019-06-02 21:09:48 ( org.apache.http.client.protocol.ResponseProcessCookies:130)
+Invalid cookie header: "Set-Cookie: uuid_tt_dd=10_4554810490-1559480974950-678806; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[WARN] 2019-06-02 21:09:48 ( org.apache.http.client.protocol.ResponseProcessCookies:130)
+Invalid cookie header: "Set-Cookie: dc_session_id=10_1559480974950.907661; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[INFO] 2019-06-02 21:09:48 ( http.chen.autocases.TestHttpRequest:48)
+java.lang.String
+[INFO] 2019-06-02 21:09:48 ( http.chen.autocases.TestHttpRequest:51)
+test httPost csdn result is :true
+[INFO] 2019-06-02 21:09:48 ( http.chen.autocases.TestHttpRequest:23)
+http用例结束后运行----
+[INFO]2019-06-02 21:13:29: com.chen.autocases.TestDemo:42>>beforeClass
+C:\Users\Administrator\IdeaProjects\Testngpro用例开始执行------
+[INFO]2019-06-02 21:13:29: com.chen.autocases.TestDemo:52>>testcase1
+testcase1
+[INFO]2019-06-02 21:13:29: com.chen.autocases.TestDemo:59>>testcase2
+testcase2
+[INFO]2019-06-02 21:13:29: com.chen.autocases.TestDemo:46>>afterClass
+用例结束后运行----
+[INFO]2019-06-02 21:13:29: http.chen.autocases.TestHttpRequest:18>>beforeClass
+C:\Users\Administrator\IdeaProjects\Testngprohttp用例开始执行------
+[INFO]2019-06-02 21:13:30: http.chen.autocases.TestHttpRequest:34>>testHttp1
+test http1 result is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[WARN]2019-06-02 21:13:30: org.apache.http.client.protocol.ResponseProcessCookies:130>>processCookies
+Invalid cookie header: "Set-Cookie: uuid_tt_dd=10_4554810490-1559481196599-209861; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[WARN]2019-06-02 21:13:30: org.apache.http.client.protocol.ResponseProcessCookies:130>>processCookies
+Invalid cookie header: "Set-Cookie: dc_session_id=10_1559481196599.868781; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[INFO]2019-06-02 21:13:30: http.chen.autocases.TestHttpRequest:48>>testHttpPost
+java.lang.String
+[INFO]2019-06-02 21:13:30: http.chen.autocases.TestHttpRequest:51>>testHttpPost
+test httPost csdn result is :true
+[INFO]2019-06-02 21:13:30: http.chen.autocases.TestHttpRequest:23>>afterClass
+http用例结束后运行----
+[INFO]2019-06-02 21:14:28: com.chen.autocases.TestDemo:line42--method:beforeClass
+C:\Users\Administrator\IdeaProjects\Testngpro用例开始执行------
+[INFO]2019-06-02 21:14:28: com.chen.autocases.TestDemo:line52--method:testcase1
+testcase1
+[INFO]2019-06-02 21:14:28: com.chen.autocases.TestDemo:line59--method:testcase2
+testcase2
+[INFO]2019-06-02 21:14:28: com.chen.autocases.TestDemo:line46--method:afterClass
+用例结束后运行----
+[INFO]2019-06-02 21:14:29: http.chen.autocases.TestHttpRequest:line18--method:beforeClass
+C:\Users\Administrator\IdeaProjects\Testngprohttp用例开始执行------
+[INFO]2019-06-02 21:14:29: http.chen.autocases.TestHttpRequest:line34--method:testHttp1
+test http1 result is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[WARN]2019-06-02 21:14:29: org.apache.http.client.protocol.ResponseProcessCookies:line130--method:processCookies
+Invalid cookie header: "Set-Cookie: uuid_tt_dd=10_4554810490-1559481255923-179379; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[WARN]2019-06-02 21:14:29: org.apache.http.client.protocol.ResponseProcessCookies:line130--method:processCookies
+Invalid cookie header: "Set-Cookie: dc_session_id=10_1559481255923.267229; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[INFO]2019-06-02 21:14:29: http.chen.autocases.TestHttpRequest:line48--method:testHttpPost
+java.lang.String
+[INFO]2019-06-02 21:14:29: http.chen.autocases.TestHttpRequest:line51--method:testHttpPost
+test httPost csdn result is :true
+[INFO]2019-06-02 21:14:29: http.chen.autocases.TestHttpRequest:line23--method:afterClass
+http用例结束后运行----
+[INFO ] 2019-06-02 21:17:25,943 method:com.chen.autocases.TestDemo.beforeClass(TestDemo.java:42)
+C:\Users\Administrator\IdeaProjects\Testngpro用例开始执行------
+[INFO ] 2019-06-02 21:17:25,954 method:com.chen.autocases.TestDemo.testcase1(TestDemo.java:52)
+testcase1
+[INFO ] 2019-06-02 21:17:25,957 method:com.chen.autocases.TestDemo.testcase2(TestDemo.java:59)
+testcase2
+[INFO ] 2019-06-02 21:17:25,958 method:com.chen.autocases.TestDemo.afterClass(TestDemo.java:46)
+用例结束后运行----
+[INFO ] 2019-06-02 21:17:26,715 method:http.chen.autocases.TestHttpRequest.beforeClass(TestHttpRequest.java:18)
+C:\Users\Administrator\IdeaProjects\Testngprohttp用例开始执行------
+[INFO ] 2019-06-02 21:17:26,918 method:http.chen.autocases.TestHttpRequest.testHttp1(TestHttpRequest.java:34)
+test http1 result is: <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+[WARN ] 2019-06-02 21:17:27,285 method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:130)
+Invalid cookie header: "Set-Cookie: uuid_tt_dd=10_4554810490-1559481433248-244847; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[WARN ] 2019-06-02 21:17:27,292 method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:130)
+Invalid cookie header: "Set-Cookie: dc_session_id=10_1559481433248.113574; Expires=Thu, 01 Jan 2025 00:00:00 GMT; Path=/; Domain=.csdn.net;". Invalid 'expires' attribute: Thu, 01 Jan 2025 00:00:00 GMT
+[INFO ] 2019-06-02 21:17:27,295 method:http.chen.autocases.TestHttpRequest.testHttpPost(TestHttpRequest.java:48)
+java.lang.String
+[INFO ] 2019-06-02 21:17:27,297 method:http.chen.autocases.TestHttpRequest.testHttpPost(TestHttpRequest.java:51)
+test httPost csdn result is :true
+[INFO ] 2019-06-02 21:17:27,299 method:http.chen.autocases.TestHttpRequest.afterClass(TestHttpRequest.java:23)
+http用例结束后运行----

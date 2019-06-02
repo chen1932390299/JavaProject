@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.583">
+  <properties />
+  
+  
+            <testcase name="testHttpPost" time="0.376" classname="http.chen.autocases.TestHttpRequest" />
+                <testcase name="testHttp1" time="0.207" classname="http.chen.autocases.TestHttpRequest" />
+      
+</testsuite>

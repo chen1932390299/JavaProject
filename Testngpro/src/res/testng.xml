@@ -8,6 +8,7 @@
     <test name="Test">
         <packages>
             <package name="com.chen.autocases"/>
+            <package name="http.chen.autocases"/>
         </packages>
 
     </test>

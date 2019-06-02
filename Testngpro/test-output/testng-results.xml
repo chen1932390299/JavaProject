@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="57872" started-at="2019-04-26T11:50:43Z" finished-at="2019-04-26T11:51:41Z">
+  <suite name="Default Suite" duration-ms="7065" started-at="2019-05-29T13:27:12Z" finished-at="2019-05-29T13:27:19Z">
     <groups>
     </groups>
-    <test name="Testngpro" duration-ms="57872" started-at="2019-04-26T11:50:43Z" finished-at="2019-04-26T11:51:41Z">
+    <test name="Testngpro" duration-ms="7065" started-at="2019-05-29T13:27:12Z" finished-at="2019-05-29T13:27:19Z">
       <class name="com.chen.autocases.TestDemo">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="beforeClass" is-config="true" duration-ms="56462" started-at="2019-04-26T11:50:43Z" finished-at="2019-04-26T11:51:39Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="beforeClass" is-config="true" duration-ms="5950" started-at="2019-05-29T13:27:12Z" finished-at="2019-05-29T13:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="testcase1" duration-ms="1" started-at="2019-04-26T11:51:39Z" finished-at="2019-04-26T11:51:39Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="testcase1" duration-ms="2" started-at="2019-05-29T13:27:18Z" finished-at="2019-05-29T13:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="afterClass" is-config="true" duration-ms="1385" started-at="2019-04-26T11:51:39Z" finished-at="2019-04-26T11:51:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="testcase2" duration-ms="0" started-at="2019-04-26T11:51:39Z" finished-at="2019-04-26T11:51:39Z">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="testcase2" duration-ms="0" started-at="2019-05-29T13:27:18Z" finished-at="2019-05-29T13:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.chen.autocases.TestDemo@1560810]" name="afterClass" is-config="true" duration-ms="1102" started-at="2019-05-29T13:27:18Z" finished-at="2019-05-29T13:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.chen.autocases.TestDemo -->
     </test> <!-- Testngpro -->
   </suite> <!-- Default Suite -->

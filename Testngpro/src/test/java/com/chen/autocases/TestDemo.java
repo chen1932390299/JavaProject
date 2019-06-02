@@ -30,16 +30,16 @@ public class TestDemo {
 
     @BeforeClass
     public void beforeClass() {
-        System.setProperty("webdriver.chrome.driver", "/usr/local/chrome/chromedriver");
+        String usrdir=System.getProperty("user.dir");
+        System.setProperty("webdriver.chrome.driver", usrdir+"/src/test/java/driversPackage//chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.setHeadless(Boolean.TRUE);
-		options.addArguments("no-sandbox");
-        options.addArguments("--disable-gpu");
+//        options.setHeadless(Boolean.TRUE);
+//        options.addArguments("--disable-gpu");
         options.addArguments("--start-maximized"); // 启动时自动最大化窗口
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("http://www.baidu.com");
-        log.info("用例开始执行------");
+        log.info(System.getProperty("user.dir")+"用例开始执行------");
     }
     @AfterClass
     public void afterClass(){
@@ -56,6 +56,6 @@ public class TestDemo {
     @Test
     public void testcase2(){
         Assert.assertTrue(true);
-        log.debug("testcase2");
+        log.info("testcase2");
     }
 }
